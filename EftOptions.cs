@@ -23,7 +23,7 @@ public sealed class EftOptions
     public string OutputFolder { get; set; } = @"C:\GPDATA\EFT";
 
     /// <summary>
-    /// How often (in seconds) to scan the input folder. Default: 30.
+    /// How often (in seconds) to scan the input folder. Default: 10.
     /// </summary>
     [Range(5, 86400)]
     public int PollIntervalSeconds { get; set; } = 10;
